@@ -32,8 +32,6 @@
 	<alg ref="alg:biasedmf">
 		<iterator-max>25</iterator-max>
 		<item-reg><lower>0.001</lower><upper>1</upper></item-reg>
-		<learn-rate-decay><lower>0.001</lower><upper>0.3</upper></learn-rate-decay>
-		<num-factors>20</num-factors>
 	</alg>
 ​
 	<!-- METRICS SECTION -->
